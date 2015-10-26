@@ -56,7 +56,7 @@ feature 'baby form' do
           'first_name' => 'Cupcake',
           'last_name'  => 'Jenkins',
           'weight'     => '12',
-          'birth_date' => '2014-02-14 05:00:00.000000'
+          'birth_date' => '2014-02-14'
         },
         'commit'     =>'Update Baby',
         'action'     =>'update',
