@@ -36,4 +36,4 @@ Fork this repository and deliver your solution in master.
 * [Rails Guides](http://guides.rubyonrails.org/security.html) - [Security: CSRF Countermeasures](http://guides.rubyonrails.org/security.html#csrf-countermeasures)
 * [Stack Overflow](http://stackoverflow.com/questions/4085136/how-to-generate-authenticitytoken-on-rails) - [Include CSRF Token in Form](http://stackoverflow.com/a/4085156)
 
-<a href='https://learn.co/lessons/formal-affair-rails' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/formal-affair-rails' title='Formal Affair'>Formal Affair</a> on Learn.co and start learning to code for free.</p>
