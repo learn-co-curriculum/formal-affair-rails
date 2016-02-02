@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 feature 'baby form' do
   it 'uses the form_for helper' do
     baby_form_template = File.read(File.join(Rails.root, 'app', 'views', 'babies', '_form.html.erb'))
@@ -65,7 +66,7 @@ feature 'baby form' do
         'authenticity_token' => 'test token'
       }
 
-      expect(expected_params).to eq test_params
+      expect(test_params).to eq expected_params
     end
   end
 end

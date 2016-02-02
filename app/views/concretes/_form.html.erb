@@ -1,0 +1,11 @@
+<%= form_for @concrete do |f| %>
+  <%= f.label :mix_type %>:
+  <%= f.text_field :mix_type %>
+  <%= f.label :color %>:
+  <%= f.text_field :color %>
+  <%= f.label :psi %>:
+  <%= f.number_field :psi %>
+  <%= f.label :cost_per_yard %>:
+  <%= f.number_field :cost_per_yard %>
+  <%= f.submit %>
+<% end %>

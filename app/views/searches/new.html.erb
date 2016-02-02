@@ -1,1 +1,7 @@
-<!-- Your form goes here! -->
+<!-- this is about using <%= form_authenticity_token %> in a raw <form> -->
+<%= form_tag("/searches", method: "get") do %>
+  <%= label_tag(:baby, "Search for:") %>
+  <%= text_field_tag(:baby) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
